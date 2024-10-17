@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Trabalho Processamento de Imagem</title>
+	<script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'>
+
+	</script>
+	<link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'>
+	</link>
+</head>
+
+<body>
+	<x3d width='1080px' height='720px'>
+		
+    <scene>
+     <!-- parte de cima DA MESA --> 
+    <transform translation='-99 -19 -149'>
+			<shape>
+				<appearance>
+					<imagetexture url='Madeira_Clara.jpg' />
+				</appearance>
+				<box size='400 4 100' />
+			</shape>
+    </transform>
+     <!-- Base das telas --> 
+    <transform translation='-99 5 -181'>
+			<shape>
+				<appearance>
+					<imagetexture url='Madeira_Clara.jpg' />
+				</appearance>
+				<box size='400 4 35' />
+			</shape>
+    </transform>  
+			
+
+      <!-- Apoio para teclado parte de cima -->
+    <transform translation='-200 -30 -105.5'>
+			<shape>
+				<appearance>
+					<imagetexture url='Madeira_Clara.jpg' />
+				</appearance>
+				<box size='73.2 2 20' />
+			</shape>
+    </transform>
+
+    <!-- Apoio para teclado lateral esquerda -->
+    <transform translation='-238 -25 -112'>
+			<shape>
+				<appearance>
+					<imagetexture url='Madeira_Clara.jpg' />
+				</appearance>
+				<box size='2 13 20' />
+			</shape>
+    </transform>
+
+    <!-- Apoio para teclado lateral direita -->
+    <transform translation='-165 -25 -112'>
+			<shape>
+				<appearance>
+					<imagetexture url='Madeira_Clara.jpg' />
+				</appearance>
+				<box size='2 13 20' />
+			</shape>
+    </transform>
+
+    <!-- parte de cima da pickup 1 -->
+    <transform translation='-60 -5.8 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mk7-superior.png' />
+				</appearance>
+				<box size='70 0 70' />
+			</shape>
+    </transform>
+    <!-- parte de baixo da pickup 1 -->
+    <transform translation='-60 -12 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mk7-frente.png' />
+				</appearance>
+				<box size='70 12 70' />
+			</shape>
+    </transform>
+
+    
+
+     <!-- parte de cima da pickup 2 -->
+    <transform translation='60 -5.8 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mk7-superior.png' />
+				</appearance>
+				<box size='70 0 70' />
+			</shape>
+    </transform>
+    <!-- parte de baixo da pickup 2 -->
+    <transform translation='60 -12 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mk7-frente.png' />
+				</appearance>
+				<box size='70 12 70' />
+			</shape>
+    </transform>
+
+    <!-- base pc -->
+    <transform translation='-280 -64 -130'>
+			<shape>
+				<appearance>
+					<imagetexture url='textura-cinza.jpg' />
+				</appearance>
+				<box size='30 65 70' />
+			</shape>
+    </transform>
+
+    <!-- frente do pc -->
+    <transform translation='-280 -64 -94.7'>
+			<shape>
+				<appearance>
+					<imagetexture url='pc.png' />
+				</appearance>
+				<box size='30 65 0' />
+			</shape>
+    </transform>
+
+    <!-- rack de som -->
+    <transform translation='60 -60 -140'>
+			<shape>
+				<appearance>
+					<material diffuseColor='0 0 0'/>
+				</appearance>
+				<box size='70 75 70' />
+			</shape>
+    </transform>
+
+    <!-- frente do rack de som -->
+    <transform translation='60 -60 -104'>
+			<shape>
+				<appearance>
+					<imagetexture url='rack-pa.png' />
+				</appearance>
+				<box size='70 75 0' />
+			</shape>
+    </transform>
+
+    <!-- parte de cima da mixer -->
+    <transform translation='0 -5.4 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='djm-450.png' />
+				</appearance>
+				<box size='50 0 70' />
+			</shape>
+    </transform>
+
+    <!-- parte de baixo da mixer -->
+    <transform translation='0 -12 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='450.png' />
+				</appearance>
+				<box size='50 13 70' />
+			</shape>
+    </transform>
+
+    <!-- parte do fundo da driver 1 -->
+    <transform translation='-128 -13 -180'>
+			<shape>
+				<appearance>
+					<material diffuseColor='0 0 0'/>
+				</appearance>
+				<box size='50 10 30' />
+			</shape>
+    </transform>
+
+    <!-- base da tela 1 -->
+    <transform translation='-250 8.5 -180'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='40 4 20' />
+			</shape>
+    </transform>
+
+    <!-- suporte da tela 1 -->
+    <transform translation='-250 21 -185'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='15 20 2.7' />
+			</shape>
+    </transform>
+
+    <!-- fundo da tela 1 -->
+    <transform translation='-250 38 -184'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='70 40 2.7' />
+			</shape>
+    </transform>
+
+    <!-- frente da tela 1 -->
+    <transform translation='-250 38 -182.1'>
+			<shape>
+				<appearance>
+					<imagetexture url='monitor1.png'/>
+				</appearance>
+				<box size='70 40 0' />
+			</shape>
+    </transform>
+
+    <!-- base da tela 2 -->
+    <transform translation='-150 8.5 -180'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='40 4 20' />
+			</shape>
+    </transform>
+
+    <!-- suporte da tela 2 -->
+    <transform translation='-150 21 -185'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='15 20 2.7' />
+			</shape>
+    </transform>
+
+    <!-- fundo da tela 2 -->
+    <transform translation='-150 38 -184'>
+			<shape>
+				<appearance>
+					<imagetexture url = 'plastico-preto.jpg'/>
+				</appearance>
+				<box size='70 40 2.7' />
+			</shape>
+    </transform>
+
+    <!-- frente da tela 2 -->
+    <transform translation='-150 38 -182.1'>
+			<shape>
+				<appearance>
+					<imagetexture url='monitor2.png'/>
+				</appearance>
+				<box size='70 40 0' />
+			</shape>
+    </transform>
+
+    <!-- parte da frente da driver 1 -->
+    <transform translation='-128 -13 -164'>
+			<shape>
+				<appearance>
+					<imagetexture url='driver1.png' />
+				</appearance>
+				<box size='50 10 0' />
+			</shape>
+    </transform>
+
+    <!-- parte do fundo da driver 2 -->
+    <transform translation='-128 -3 -180'>
+			<shape>
+				<appearance>
+					<material diffuseColor='0 0 0'/>
+				</appearance>
+				<box size='50 10 30' />
+			</shape>
+    </transform>
+
+    <!-- parte da frente da driver 2 -->
+    <transform translation='-128 -3 -164'>
+			<shape>
+				<appearance>
+					<imagetexture url='driver2.png' />
+				</appearance>
+				<box size='50 10 0' />
+			</shape>
+    </transform>
+
+   
+
+    <!-- base da mesa de som -->
+    <transform translation='-235 -11.8 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mk7-frente.png' />
+				</appearance>
+				<box size='120 10 50' />
+			</shape>
+    </transform>
+
+    <!-- parte de cima da mesa de som -->
+    <transform translation='-235 -6 -140'>
+			<shape>
+				<appearance>
+					<imagetexture url='mg12.png' />
+				</appearance>
+				<box size='120 0 50' />
+			</shape>
+    </transform>
+
+    <!-- porta acustica -->
+    <transform translation='195 10 -199'>   
+			<shape>
+				<appearance>
+					<imagetexture url='porta-acustica.png' />
+				</appearance>
+				<box size='120 220 0' />
+			</shape>
+    </transform>
+
+
+
+
+
+      <!-- Moudura Vidro acustico -->
+    <transform rotation='1,0,0,1.5708' translation='-90 70 -199'>   
+			<shape>
+				<appearance>
+					<imagetexture url='janela-estudio.png' />
+				</appearance>
+				<box size='300 0 150' />
+			</shape>
+    </transform>
+
+    
+
+      <!-- Perna Lateral esquerda da Mesa -->
+			<transform translation='-297 -60 -149'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg'/>
+					</appearance>
+					<box size='4 79 100' />
+				</shape>
+			</transform>
+      
+
+      <!-- Perna Lateral direita1 da Mesa -->
+			<transform translation='-101 -60 -149'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 79 100' />
+				</shape>
+			</transform>
+      <!-- Perna Lateral direita2 da Mesa -->
+			<transform translation='98 -60 -149'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 79 100' />
+				</shape>
+			</transform>
+
+      
+
+      <!-- Perna Lateral superior direita2 da Mesa -->
+			<transform translation='98 -8 -180'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 25 35' />
+				</shape>
+			</transform>
+
+      <!-- Perna Lateral superior direita2 da Mesa -->
+			<transform translation='-297 -8 -180'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 25 35' />
+				</shape>
+			</transform>
+
+      <!-- Perna Lateral superior direita2 da Mesa -->
+			<transform translation='-101 -8 -180'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 25 35' />
+				</shape>
+			</transform>
+
+      <!-- Perna de apoio para Gabinete -->
+			<transform translation='-262 -59 -149'>
+				<shape>
+					<appearance>
+						<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='4 79 -100' />
+				</shape>
+			</transform>
+
+      <!-- Base de chão para Gabinete -->
+			<transform translation='-280 -98 -149'>
+				<shape>
+					<appearance>
+						<<imagetexture url='Madeira_Escura.jpg' />
+					</appearance>
+					<box size='38 2 100' />
+				</shape>
+			</transform>
+
+      <!-- caixa de som L -->
+			<transform translation='-280.7 150 -178.3'>
+				<shape>
+					<appearance>
+						<imagetexture url='caixa-monitor.png' />
+					</appearance>
+					<box size='35 60 0' />
+				</shape>
+			</transform>
+
+      <!-- caixa de som R -->
+      <transform translation='280.7 150 -178.3'>
+				<shape>
+					<appearance>
+						<imagetexture url='caixa-monitor.png' />
+					</appearance>
+					<box size='35 60 0' />
+				</shape>
+			</transform>
+
+      <!-- base da caixa -->
+			<transform translation='-280.7 150 -189'>
+				<shape>
+					<appearance>
+						<material diffuseColor='0 0 0'/>
+					</appearance>
+					<box size='35 60 20' />
+				</shape>
+			</transform>
+
+      <!-- base da caixa -->
+			<transform translation='280.7 150 -189'>
+				<shape>
+					<appearance>
+						<material diffuseColor='0 0 0'/>
+					</appearance>
+					<box size='35 60 20' />
+				</shape>
+			</transform>
+
+      <!-- placa escada -->
+			<transform translation='95 70 -199'>
+				<shape>
+					<appearance>
+						<imagetexture url='escada.jpg'/>
+					</appearance>
+					<box size='60 35 0' />
+				</shape>
+			</transform>
+
+      <!-- parede esquerda1 -->
+			<transform translation='-300 50 0'>
+				<shape>
+					<appearance>
+						<imagetexture url='parede-externa.jpg'/>
+					</appearance>
+					<box size='0 300 400' />
+				</shape>
+			</transform>
+
+
+       <!-- parede esquerda2 -->
+			<transform translation='-299 50 0'>
+				<shape>
+					<appearance>
+						<imagetexture url='espuma-acustica.jpg'/>
+					</appearance>
+					<box size='0 300 400' />
+				</shape>
+			</transform>
+
+
+
+
+      <!-- parede direita1 -->
+			<transform translation='299 50 0'>
+				<shape>
+					<appearance>
+						<imagetexture url='espuma-acustica.jpg'/>
+					</appearance>
+					<box size='0 300 400' />
+				</shape>
+			</transform>
+
+      <!-- parede direita2 -->
+			<transform translation='300 50 0'>
+				<shape>
+					<appearance>
+						<imagetexture url='parede-externa.jpg'/>
+					</appearance>
+					<box size='0 300 400' />
+				</shape>
+			</transform>
+
+      <!-- parede do fundo -->
+			<transform translation='0 50 -200'>
+				<shape>
+					<appearance>
+						<imagetexture url='espuma-acustica.jpg'/>
+					</appearance>
+					<box size='600 300 0' />
+				</shape>
+			</transform>
+
+      <!-- chão1 -->
+			<transform translation='0 -100 0'>
+				<shape>
+					<appearance>
+						<material diffuseColor='0 0 0'/>
+					</appearance>
+					<box size='600 0 400' />
+				</shape>
+			</transform>
+
+      <!-- chão2 -->
+			<transform translation='0 -99 0'>
+				<shape>
+					<appearance>
+						<imagetexture url='piso.jpg'/>
+					</appearance>
+					<box size='600 0 400' />
+				</shape>
+			</transform>
+
+      <!-- mouse pad -->
+    <transform translation='-140 -16 -120'>
+			<shape>
+				<appearance>
+          <imagetexture url='verde-metalico.jpg'/>
+				</appearance>
+				<box size='50 0 40' />
+			</shape>
+    </transform>
+    <!-- mouse  -->
+    <transform translation='-140 -13 -120'>
+			<shape>
+				<appearance>
+          <imagetexture url='mouse.png'/>
+				</appearance>
+				<box size='15 0 20' />
+			</shape>
+    </transform>
+    <!-- base mouse  -->
+    <transform translation='-140 -15 -120'>
+			<shape>
+				<appearance>
+          <imagetexture url='verde-metalico.jpg'/>
+				</appearance>
+				<box size='14 3 21' />
+			</shape>
+    </transform>
+
+    <!-- Base do Teclao -->
+    <transform translation='-200 -28 -105.5'>
+			<shape>
+				<appearance>
+          <imagetexture url='azul-metalico.jpg'/>
+				</appearance>
+				<box size='50 3 10' />
+			</shape>
+    </transform>
+    <!-- Teclao -->
+    <transform translation='-200 -26.3 -105.5'>
+			<shape>
+				<appearance>
+          <imagetexture url='teclado.png'/>
+				</appearance>
+				<box size='50 0 13' />
+			</shape>
+    </transform>
+
+   
+
+    
+
+
+		</scene>
+
+	</x3d>
+
+</body>
+
+</html>
